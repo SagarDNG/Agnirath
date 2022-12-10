@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    res.send('Form SUbmitted!');
-    // res.redirect('/');
+    // res.send('Form SUbmitted!');
+    res.redirect('http://localhost:3000/');
 })
 
 const port = '3001';

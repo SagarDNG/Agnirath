@@ -18,10 +18,10 @@ function Contact() {
                     <img data-aos="fade-right" src={Logo} alt="" className='ContactLogo' />
                 </div>
                 <div className="col-3 offset-3">
-                    <form action="/" method="post">
+                    <form action="http://localhost:3001/" method="post">
                         <div className="mb-3">
                             <label for="name" className="form-label">Name</label>
-                            <input type="text" className="form-control col-3" id="name" name='name' required placeholder='Plese enter your Name' disabled />
+                            <input type="text" className="form-control col-3" id="name" name='name' required placeholder='Plese enter your Name' />
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -31,7 +31,7 @@ function Contact() {
                         </div>
                         <div className="mb-3">
                             <label for="email" className="form-label">Email address</label>
-                            <input type="email" className="form-control" id="email" name='email' required placeholder='Plese enter your Email address' disabled />
+                            <input type="email" className="form-control" id="email" name='email' required placeholder='Plese enter your Email address' />
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -41,7 +41,7 @@ function Contact() {
                         </div>
                         <div className="mb-3">
                             <label for="mobile" className="form-label">Phone Number</label>
-                            <input type="tel" className="form-control" id="mobile" name='mobile' required placeholder='Plese enter your Phone Number with country code' disabled />
+                            <input type="tel" className="form-control" id="mobile" name='mobile' required placeholder='Plese enter phone number with country code' />
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -54,7 +54,7 @@ function Contact() {
 
                         <div className="mb-3">
                             <label for="subject" className="form-label">Subject</label>
-                            <input type="text" className="form-control" id="subject" name='subject' required placeholder='Plese enter the Subject' disabled />
+                            <input type="text" className="form-control" id="subject" name='subject' required placeholder='Plese enter the Subject' />
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -64,7 +64,7 @@ function Contact() {
                         </div>
                         <div className="mb-3">
                             <label for="message" className="form-label">Message</label> <br />
-                            <textarea name="message" id="message" cols="40" rows="5" placeholder='Plese enter your message' disabled></textarea>
+                            <textarea name="message" id="message" cols="40" rows="5" placeholder='Plese enter your message'  ></textarea>
                         </div>
                         <button type="submit" className="btn btn-primary mb-5">Submit</button>
                     </form>
