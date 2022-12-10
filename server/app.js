@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const dbUrl = 'mongodb://localhost:27017/agnirath';
 mongoose.connect(dbUrl);
@@ -11,6 +12,8 @@ db.once("open", () => {
 });
 
 const app = express();
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Hello, from Agnirath - server');
