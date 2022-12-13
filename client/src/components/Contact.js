@@ -33,7 +33,7 @@ function Contact() {
                 message: message
             })
         }).then(() => {
-            // Once posted, the user will be notified
+            // Once posted, the user will be notified 
             alert('Data Submitted!');
         })
         setName('');
