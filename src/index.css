@@ -44,7 +44,7 @@
     height: 200px;
 } */
 
-div .Competations {
+div .competitions {
     width: 300px;
     height: 200px;
     background-color: yellow;
@@ -52,7 +52,7 @@ div .Competations {
     margin-right: 25px;
 }
 
-div .Competations p {
+div .competitions p {
     margin-left: 100px;
     transform: skewX(-50deg);
     color: black;
@@ -150,7 +150,7 @@ div .extra {
     width: 300px;
 }
 
-.CompetationsLogo {
+.competitionsLogo {
     margin-left: 1em;
     height: 120px;
     width: 300px;
