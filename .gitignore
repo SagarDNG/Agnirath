@@ -1,11 +1,10 @@
 
 # dependencies
 node_modules
-client/.pnp
 .pnp.js
 
 # testing
-client/coverage
+coverage
 
 # production
 build

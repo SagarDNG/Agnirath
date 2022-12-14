@@ -172,3 +172,9 @@ div .extra {
 .carousel-control-next-icon {
     margin-left: 10em;
 }
+
+.contact-email {
+    text-decoration: none;
+    color: #f07510;
+    transition: .5s;
+}
