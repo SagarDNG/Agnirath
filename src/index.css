@@ -178,3 +178,14 @@ div .extra {
     color: #f07510;
     transition: .5s;
 }
+
+@media screen and (max-width: 978px) {
+    .App {
+        display: none;
+    }
+
+    .mobile-css {
+        text-align: center;
+        padding: 5em 2em;
+    }
+}
