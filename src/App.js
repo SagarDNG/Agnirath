@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Vision from "./components/Vision";
 import Team from "./components/Team";
-import competitions from "./components/competitions";
+import Competitions from "./components/Competitions";
 import Sponsers from "./components/Sponsers";
 import Contact from "./components/Contact";
 
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Vision />
       <Team />
-      <competitions />
+      <Competitions />
       <Sponsers />
       <Contact />
     </div>

@@ -26,7 +26,7 @@ function Navbar() {
                             <a className="nav-link text-light" href="#Team">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" href="#competitions">competitions</a>
+                            <a className="nav-link text-light" href="#competitions">Competitions</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-light" href="#Sponsers">Sponsers</a>

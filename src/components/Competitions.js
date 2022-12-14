@@ -4,7 +4,7 @@ import Logo from "../images/testing-grounds.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function competitions() {
+function Competitions() {
     useEffect(() => {
         Aos.init({ duration: 3000 });
     }, []);
@@ -27,4 +27,4 @@ function competitions() {
     )
 }
 
-export default competitions
+export default Competitions
