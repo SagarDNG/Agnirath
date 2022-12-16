@@ -36,7 +36,7 @@ function Contact() {
                             className='CFI' /></a>
                     </div>
                     <div className='mx-3'>
-                        <a href="http://localhost:3000"><img src={AgnirathLogo} alt="" className='Agnirath' /></a>
+                        <a href='https://agnirathiitm.com/'><img src={AgnirathLogo} alt="" className='Agnirath' /></a>
                     </div>
                 </div>
                 <div className='d-flex'>
