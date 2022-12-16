@@ -189,6 +189,10 @@ div .extra {
     }
 
     .mobile-css {
+        display: block;
+    }
+
+    .mobile-css {
         text-align: center;
         padding: 5em 2em;
     }
