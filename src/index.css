@@ -240,8 +240,8 @@ div .sponsors:nth-of-type(2n) {
         height: 300px;
     }
 
-    .competitions,
-    .sponsors {
+    #competitions,
+    #sponsors {
         display: none;
     }
 
