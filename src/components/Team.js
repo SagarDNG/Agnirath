@@ -14,12 +14,12 @@ function Team() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='Team' className='row mb-5 align-items-center'>
+        <div id='team' className='row mb-5 align-items-center'>
             {/* <div className="col-3">
-                <img data-aos="fade-right" src={Logo} alt="" className='TeamLogo' />
+                <img data-aos="fade-right" src={Logo} alt="" className='teamLogo' />
             </div> */}
 
-            <div id="TeamImages" className="carousel slide col-12 px-5" data-bs-ride="carousel">
+            <div id="teamImages" className="carousel slide col-12 px-5" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={core} alt="First slide" />
@@ -34,11 +34,11 @@ function Team() {
                         <img className="d-block w-100" src={spons} alt="Third slide" />
                     </div>
                 </div>
-                <button className="carousel-control-prev" data-bs-target="#TeamImages" type="button" data-bs-slide="prev">
+                <button className="carousel-control-prev" data-bs-target="#teamImages" type="button" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button >
-                <button className="carousel-control-next" data-bs-target="#TeamImages" type="button" data-bs-slide="next">
+                <button className="carousel-control-next" data-bs-target="#teamImages" type="button" data-bs-slide="next">
                     <span className="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button >

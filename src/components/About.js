@@ -10,9 +10,9 @@ function About() {
     }, []);
 
     return (
-        <div id='About' className='row align-items-center mb-5'>
+        <div id='about' className='row align-items-center mb-5'>
             <div data-aos="fade-right" className="col-3">
-                <img src={Logo} alt="" className='AboutLogo' />
+                <img src={Logo} alt="" className='aboutLogo' />
             </div>
             <div data-aos="fade-up" className="col-9 p-5 about">We are Team Agnirath, a team of young brains, with a vision to contribute to
                 the sustainable future and the will to push the engineering limits, attempting to make solar EV hybrids a reality. We are one

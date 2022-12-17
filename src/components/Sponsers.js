@@ -11,15 +11,15 @@ function Sponsers() {
     }, []);
 
     return (
-        <div id='Sponsers' className='row align-items-center mb-5'>
+        <div id='sponsers' className='row align-items-center mb-5'>
             <div className='col-3'>
-                <img data-aos="fade-right" src={Logo} alt="" className='SponsersLogo' />
+                <img data-aos="fade-right" src={Logo} alt="" className='sponsersLogo' />
             </div>
             <div className='col-9 d-flex parentSponser' data-aos="fade-up-left">
-                <div className="Sponsers"></div>
-                <div className="Sponsers"></div>
-                <div className="Sponsers"></div>
-                <div className="Sponsers"></div>
+                <div className="sponsers"></div>
+                <div className="sponsers"></div>
+                <div className="sponsers"></div>
+                <div className="sponsers"></div>
             </div>
         </div>
     )

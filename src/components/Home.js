@@ -12,7 +12,7 @@ function Home() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='Home' className='row d-flex'>
+        <div id='home' className='row d-flex vh-100'>
 
             {/* <div className="col-3 align-self-center">
                 <img data-aos="fade-right" src={Logo} alt="" className='homeLogo' />

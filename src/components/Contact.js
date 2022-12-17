@@ -14,9 +14,9 @@ function Contact() {
     }, []);
     return (
         <>
-            <div id='Contact' className='row align-items-center mb-5'>
+            <div id='contact' className='row align-items-center mb-5'>
                 <div className="col-3">
-                    <img data-aos="fade-right" src={Logo} alt="" className='ContactLogo' />
+                    <img data-aos="fade-right" src={Logo} alt="" className='contactLogo' />
                 </div>
                 <div className="col-3 offset-3">
                     <p><a className='contact-email' href="mailto:agnirathiitm@smail.iitm.ac.in">AgnirathIITM@smail.iitm.ac.in</a></p>
