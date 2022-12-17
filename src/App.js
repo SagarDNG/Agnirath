@@ -5,7 +5,7 @@ import About from "./components/About";
 import Vision from "./components/Vision";
 import Team from "./components/Team";
 import Competitions from "./components/Competitions";
-import Sponsers from "./components/Sponsers";
+import Sponsors from "./components/Sponsors";
 import Contact from "./components/Contact";
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -21,7 +21,7 @@ function App() {
         <Vision />
         <Team />
         <Competitions />
-        <Sponsers />
+        <Sponsors />
         <Contact />
       </div>
       <div className="mobile-css">
