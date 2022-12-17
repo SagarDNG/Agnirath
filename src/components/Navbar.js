@@ -29,7 +29,7 @@ function Navbar() {
                             <a className="nav-link text-light" href="#competitions">Competitions</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" href="#sponsers">Sponsers</a>
+                            <a className="nav-link text-light" href="#sponsors">Sponsors</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-light" href="#contact">Contact</a>
