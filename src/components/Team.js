@@ -19,19 +19,19 @@ function Team() {
                 <img data-aos="fade-right" src={Logo} alt="" className='teamLogo' />
             </div>
 
-            <div id="teamImages" className="carousel slide col-12 px-5" data-bs-ride="carousel">
+            <div id="teamImages" className="carousel slide col-12" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block" src={core} alt="First slide" />
+                        <img className="d-block w-100" src={core} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block" src={mech} alt="Second slide" />
+                        <img className="d-block w-100" src={mech} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block" src={elec} alt="Third slide" />
+                        <img className="d-block w-100" src={elec} alt="Third slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block" src={spons} alt="Fourth slide" />
+                        <img className="d-block w-100" src={spons} alt="Fourth slide" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" data-bs-target="#teamImages" type="button" data-bs-slide="prev">

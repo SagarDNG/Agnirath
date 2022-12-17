@@ -13,7 +13,7 @@ function Home() {
     return (
         <div id='home' className='row d-flex'>
             <div id="AgnirathImages" className="carousel slide col-12" data-bs-ride="carousel">
-                <div className="carousel-inner p-2">
+                <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={home1} alt="First slide" />
                     </div>
