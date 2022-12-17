@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c77aa71e.css",
+    "main.css": "/static/css/main.68c9c701.css",
     "main.js": "/static/js/main.dc955bd9.js",
     "static/media/core.png": "/static/media/core.b44e92f7ff0352cb3e20.png",
     "static/media/elec.png": "/static/media/elec.f171795ab25c15377fc9.png",
@@ -12,11 +12,11 @@
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "static/media/testing-grounds.png": "/static/media/testing-grounds.9fb5522ade18d0308f17.png",
     "index.html": "/index.html",
-    "main.c77aa71e.css.map": "/static/css/main.c77aa71e.css.map",
+    "main.68c9c701.css.map": "/static/css/main.68c9c701.css.map",
     "main.dc955bd9.js.map": "/static/js/main.dc955bd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c77aa71e.css",
+    "static/css/main.68c9c701.css",
     "static/js/main.dc955bd9.js"
   ]
 }
