@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-// import Logo from "../images/agnirath-logo-home.png"
 import home1 from "../images/home-1.png"
 import home2 from "../images/home-2.png"
 import home3 from "../images/home-3.png"
@@ -12,14 +11,9 @@ function Home() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='home' className='row d-flex vh-100'>
-
-            {/* <div className="col-3 align-self-center">
-                <img data-aos="fade-right" src={Logo} alt="" className='homeLogo' />
-            </div> */}
-
-            <div id="AgnirathImages" className="carousel slide vh-100 col-12" data-bs-ride="carousel">
-                <div className="carousel-inner vh-100 p-2">
+        <div id='home' className='row d-flex'>
+            <div id="AgnirathImages" className="carousel slide col-12" data-bs-ride="carousel">
+                <div className="carousel-inner p-2">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={home1} alt="First slide" />
                     </div>

@@ -3,7 +3,7 @@ import Logo from "../images/agnirath-logo-nav.png"
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg sticky-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#home">
                     <img src={Logo} alt="" />

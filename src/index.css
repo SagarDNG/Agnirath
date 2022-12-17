@@ -11,6 +11,8 @@
 
 .navbar {
     background-color: #000000;
+    /* position: fixed;
+    top: 0; */
 }
 
 .navbar div a {
@@ -115,9 +117,10 @@ div .sponsors:nth-of-type(2n) {
     transition: 1s;
 }
 
-div .extra {
-    height: 300px;
-}
+/* #competitions,
+#sponsors {
+    max-width: 100%;
+} */
 
 /* #About .about {
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
@@ -126,12 +129,6 @@ div .extra {
 
 
 /********************************************************* Logo CSS **************************************************/
-/* .homeLogo {
-    margin-left: 1em;
-    height: 250px;
-    width: 350px;
-} */
-
 .AboutLogo {
     margin-left: 1em;
     height: 120px;
@@ -171,6 +168,10 @@ div .extra {
 /* moving the arrow icons to right and left */
 .carousel-control-next-icon {
     margin-left: 10em;
+}
+
+.carousel-control-prev-icon {
+    margin-right: 10em;
 }
 
 .contact-email {
