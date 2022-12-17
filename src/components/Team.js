@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import Logo from "../images/team.png"
+import Logo from "../images/team.png"
 import core from "../images/core.png"
 import mech from "../images/mech.png"
 import elec from "../images/elec.png"
@@ -14,24 +14,24 @@ function Team() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='team' className='row mb-5 align-items-center'>
-            {/* <div className="col-3">
+        <div id='team' className='row mb-5 align-items-center d-fflex'>
+            <div className="col-3 mb-5">
                 <img data-aos="fade-right" src={Logo} alt="" className='teamLogo' />
-            </div> */}
+            </div>
 
             <div id="teamImages" className="carousel slide col-12 px-5" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={core} alt="First slide" />
+                        <img className="d-block" src={core} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={mech} alt="Second slide" />
+                        <img className="d-block" src={mech} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={elec} alt="Third slide" />
+                        <img className="d-block" src={elec} alt="Third slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={spons} alt="Third slide" />
+                        <img className="d-block" src={spons} alt="Fourth slide" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" data-bs-target="#teamImages" type="button" data-bs-slide="prev">

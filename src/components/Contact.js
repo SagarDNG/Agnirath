@@ -14,17 +14,20 @@ function Contact() {
     }, []);
     return (
         <>
-            <div id='contact' className='row align-items-center mb-5'>
+            <div id='contact' className='row align-items-center mb-4'>
                 <div className="col-3">
-                    <img data-aos="fade-right" src={Logo} alt="" className='contactLogo' />
+                    <img data-aos="fade-right" src={Logo} alt="" className='contactLogo mb-3' />
                 </div>
-                <div className="col-3 offset-3">
+                <div className="web-css col-3 offset-3">
+                    <p><a className='contact-email' href="mailto:agnirathiitm@smail.iitm.ac.in">AgnirathIITM@smail.iitm.ac.in</a></p>
+                </div>
+                <div className="mobile-css col-3">
                     <p><a className='contact-email' href="mailto:agnirathiitm@smail.iitm.ac.in">AgnirathIITM@smail.iitm.ac.in</a></p>
                 </div>
             </div>
 
-            <div className='d-flex align-items-center justify-content-between FooterLogos'>
-                <div className='d-flex'>
+            <div className='FooterLogos d-flex align-items-center justify-content-between mb-4'>
+                <div className='primary'>
                     <div className='mx-3'>
                         <a href="https://www.iitm.ac.in/"><img
                             src='https://cfi.iitm.ac.in/static/media/IITMadrasLogo.57ad364c.png' alt=""
@@ -39,7 +42,7 @@ function Contact() {
                         <a href='https://agnirathiitm.com/'><img src={AgnirathLogo} alt="" className='Agnirath' /></a>
                     </div>
                 </div>
-                <div className='d-flex'>
+                <div className='d-flex secondary'>
                     <div className='mx-3'>
                         <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
                             <FaLinkedin className='Linkedin' />

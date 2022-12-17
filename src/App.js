@@ -12,24 +12,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <>
-
-      <div className="App">
-        <Navbar />
-        <Home />
-        <About />
-        <Vision />
-        <Team />
-        <Competitions />
-        <Sponsors />
-        <Contact />
-      </div>
-      <div className="mobile-css">
-        <h1>Team Agnirath, IITM</h1>
-        <h3>A solar car competitive team, IIT Madras, India</h3>
-        <p>Kindly view it in PC, Site will soon be mobile friendly too...</p>
-      </div>
-    </>
+    <div className="App">
+      <Navbar />
+      <Home />
+      <About />
+      <Vision />
+      <Team />
+      <Competitions />
+      <Sponsors />
+      <Contact />
+    </div>
   );
 }
 

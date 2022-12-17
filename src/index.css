@@ -7,6 +7,7 @@
     color: white;
     scroll-behavior: smooth;
     overflow-x: clip;
+    /* text-align: center; */
 }
 
 .navbar {
@@ -117,52 +118,44 @@ div .sponsors:nth-of-type(2n) {
     transition: 1s;
 }
 
-/* #competitions,
-#sponsors {
-    max-width: 100%;
-} */
-
-/* #About .about {
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-} */
-
-
-
 /********************************************************* Logo CSS **************************************************/
-.AboutLogo {
-    margin-left: 1em;
-    height: 120px;
-    width: 300px;
-}
+@media screen and (min-width: 444px) {
 
-.visionLogo {
-    margin-left: 1em;
-    height: 100px;
-    width: 300px;
-}
+    .aboutLogo {
+        margin-left: 1em;
+        height: 120px;
+        width: 300px;
+    }
 
-.teamLogo {
-    margin-left: 1em;
-    height: 120px;
-    width: 300px;
-}
+    .visionLogo {
+        margin-left: 1em;
+        height: 100px;
+        width: 300px;
+    }
 
-.competitionsLogo {
-    margin-left: 1em;
-    height: 120px;
-    width: 300px;
-}
+    .teamLogo {
+        margin-left: 1em;
+        height: 120px;
+        width: 300px;
+    }
 
-.sponsorsLogo {
-    margin-left: 1em;
-    height: 100px;
-    width: 300px;
-}
+    .competitionsLogo {
+        margin-left: 1em;
+        height: 120px;
+        width: 300px;
+    }
 
-.contactLogo {
-    margin-left: 1em;
-    height: 120px;
-    width: 300px;
+    .sponsorsLogo {
+        margin-left: 1em;
+        height: 100px;
+        width: 300px;
+    }
+
+    .contactLogo {
+        margin-left: 1em;
+        height: 120px;
+        width: 300px;
+    }
 }
 
 /* moving the arrow icons to right and left */
@@ -180,12 +173,32 @@ div .sponsors:nth-of-type(2n) {
     transition: .5s;
 }
 
+.navbar-toggler-icon {
+    background-color: #f07510;
+    border-radius: 5px;
+    width: 2em;
+    height: 2em;
+}
+
 .mobile-css {
     display: none;
 }
 
-@media screen and (max-width: 978px) {
-    .App {
+.teamLogo {
+    display: none;
+}
+
+#teamImages img {
+    width: 100%;
+}
+
+.primary {
+    display: flex;
+}
+
+/* Mobile Design */
+@media screen and (max-width: 444px) {
+    .web-css {
         display: none;
     }
 
@@ -193,8 +206,63 @@ div .sponsors:nth-of-type(2n) {
         display: block;
     }
 
-    .mobile-css {
-        text-align: center;
-        padding: 5em 2em;
+    #home {
+        min-height: 250px;
     }
+
+    .carousel-item {
+        width: 100px;
+    }
+
+    #about,
+    #vision,
+    #team,
+    #competitions,
+    #sponsors,
+    #contact,
+    .FooterLogos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .teamLogo {
+        display: block;
+    }
+
+    .primary {
+        display: none;
+    }
+
+    .aboutLogo,
+    .visionLogo,
+    .teamLogo,
+    .competitionsLogo,
+    .sponsorsLogo,
+    .contactLogo {
+        margin-left: -3em;
+    }
+
+    .about,
+    .vision {
+        text-align: center;
+        padding: 2em 0;
+        line-height: 1.5em;
+    }
+
+    .contact-email {
+        margin-left: -5em;
+        padding: 1em;
+    }
+
+    #teamImages img {
+        width: 340px;
+        height: 300px;
+    }
+
+    .competitions,
+    .sponsors {
+        display: none;
+    }
+
 }
