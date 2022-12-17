@@ -6,7 +6,7 @@
     background-color: #000000;
     color: white;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 .navbar {
