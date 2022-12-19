@@ -19,7 +19,7 @@ function Contact() {
                     <img data-aos="fade-right" src={Logo} alt="" className='contactLogo mb-3' />
                 </div>
                 <div className="web-css col-3 offset-3">
-                    <p><a className='contact-email' href="mailto:agnirathiitm@smail.iitm.ac.in">AgnirathIITM@smail.iitm.ac.in</a></p>
+                    <p><a className='contact-email' href="mailto:agnirath@smail.iitm.ac.in">agnirath@smail.iitm.ac.in</a></p>
                 </div>
                 <div className="mobile-css col-3">
                     <p><a className='contact-email' href="mailto:agnirathiitm@smail.iitm.ac.in">AgnirathIITM@smail.iitm.ac.in</a></p>

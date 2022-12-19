@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import home1 from "../images/home-1.png"
-import home2 from "../images/home-2.png"
 import home3 from "../images/home-3.png"
 
 import Aos from "aos";
@@ -16,9 +15,6 @@ function Home() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={home1} alt="First slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src={home2} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={home3} alt="Third slide" />

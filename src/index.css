@@ -7,7 +7,7 @@
     color: white;
     scroll-behavior: smooth;
     overflow-x: clip;
-    /* text-align: center; */
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -69,9 +69,10 @@ div .sponsors:nth-of-type(2n) {
     align-self: flex-end;
 }
 
+/* 
 #teamImages img {
     height: 600px;
-}
+} */
 
 .FooterLogos .IITM,
 .FooterLogos .CFI,
@@ -180,6 +181,50 @@ div .sponsors:nth-of-type(2n) {
     display: flex;
 }
 
+#home {
+    min-height: 900px;
+}
+
+.person {
+    width: 200px;
+    height: 200px;
+    margin: 1rem 2rem;
+    background-image: url(./images/person.png);
+    background-size: cover;
+    background-position: center;
+    padding: 115px 0 0;
+    border-radius: 10%;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+}
+
+
+.person-cards>div:nth-of-type(1),
+.person-cards>div:nth-of-type(5) {
+    margin: 1rem 2rem 1rem 15rem;
+}
+
+.person .content {
+    padding: 1rem;
+    background: linear-gradient(hsl(0 0% 0% / 0),
+
+            hsl(0 0% 0% / 1));
+    text-align: center;
+    color: #ffffff;
+    transform: translateY(40%);
+    transition: transform .5s ease;
+}
+
+.person:hover .content {
+    transform: translateY(0);
+    /* transition: transform .5s ease; */
+}
+
+.person .contact a {
+    margin: 0 25px;
+}
+
 /* Mobile Design */
 @media screen and (max-width: 444px) {
     .web-css {
@@ -245,4 +290,38 @@ div .sponsors:nth-of-type(2n) {
         display: none;
     }
 
+    .person {
+        width: 150px;
+        height: 150px;
+        margin: .5rem;
+        padding: 70px 0 0;
+    }
+
+    .person-cards>div:nth-of-type(1),
+    .person-cards>div:nth-of-type(5) {
+        margin: .5rem;
+    }
+
+    .person .content {
+        padding: .5rem .1rem;
+        background: linear-gradient(hsl(0 0% 0% / 0),
+                hsl(0 0% 0% / 1));
+        text-align: center;
+        color: #ffffff;
+        transform: translateY(50%);
+        transition: transform .5s ease;
+    }
+
+    .person:hover .content {
+        transform: translateY(0);
+        /* transition: transform .5s ease; */
+    }
+
+    .person .contact a {
+        margin: 0 20px;
+    }
+
+    .person-cards {
+        justify-content: center;
+    }
 }

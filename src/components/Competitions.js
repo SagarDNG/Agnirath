@@ -15,7 +15,7 @@ function Competitions() {
             </div>
             <div data-aos="fade-down-left" className='col-9 d-flex'>
                 <div className='competitions'>
-                    <p >Some text here</p>
+                    <p></p>
                 </div>
                 <div className='competitions'></div>
                 <div className='competitions'></div>
