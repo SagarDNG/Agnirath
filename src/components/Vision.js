@@ -9,7 +9,7 @@ function Vision() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='vision' className='row align-items-center mb-5'>
+        <div id='vision' className='row align-items-center mb-5 px-5'>
             <div className="col-3">
                 <img data-aos="fade-right" src={Logo} alt="" className='visionLogo' />
             </div>

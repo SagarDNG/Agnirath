@@ -69,11 +69,6 @@ div .sponsors:nth-of-type(2n) {
     align-self: flex-end;
 }
 
-/* 
-#teamImages img {
-    height: 600px;
-} */
-
 .FooterLogos .IITM,
 .FooterLogos .CFI,
 .FooterLogos .Agnirath {
@@ -200,15 +195,15 @@ div .sponsors:nth-of-type(2n) {
 }
 
 
-.person-cards>div:nth-of-type(1),
+/* .person-cards>div:nth-of-type(1),
 .person-cards>div:nth-of-type(5) {
     margin: 1rem 2rem 1rem 15rem;
-}
+} */
 
 .person .content {
     padding: 1rem;
     background: linear-gradient(hsl(0 0% 0% / 0),
-
+            hsl(30 0% 0% / 0) 10%,
             hsl(0 0% 0% / 1));
     text-align: center;
     color: #ffffff;
@@ -217,12 +212,16 @@ div .sponsors:nth-of-type(2n) {
 }
 
 .person:hover .content {
-    transform: translateY(0);
+    transform: translateY(-10%);
     /* transition: transform .5s ease; */
 }
 
 .person .contact a {
     margin: 0 25px;
+}
+
+.teamSection {
+    margin: 0 12rem;
 }
 
 /* Mobile Design */
@@ -280,11 +279,6 @@ div .sponsors:nth-of-type(2n) {
         padding: 1em;
     }
 
-    #teamImages img {
-        width: 340px;
-        height: 300px;
-    }
-
     #competitions,
     #sponsors {
         display: none;
@@ -305,6 +299,7 @@ div .sponsors:nth-of-type(2n) {
     .person .content {
         padding: .5rem .1rem;
         background: linear-gradient(hsl(0 0% 0% / 0),
+                hsl(30 0% 0% / 0) 10%,
                 hsl(0 0% 0% / 1));
         text-align: center;
         color: #ffffff;
@@ -321,7 +316,11 @@ div .sponsors:nth-of-type(2n) {
         margin: 0 20px;
     }
 
-    .person-cards {
-        justify-content: center;
+    .teamSection {
+        margin: 0;
+    }
+
+    .footer-text {
+        font-size: small;
     }
 }

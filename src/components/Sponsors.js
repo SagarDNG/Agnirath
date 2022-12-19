@@ -11,7 +11,7 @@ function Sponsors() {
     }, []);
 
     return (
-        <div id='sponsors' className='row align-items-center mb-5'>
+        <div id='sponsors' className='row align-items-center mb-5 px-5'>
             <div className='col-3'>
                 <img data-aos="fade-right" src={Logo} alt="" className='sponsorsLogo' />
             </div>

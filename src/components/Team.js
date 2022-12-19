@@ -25,7 +25,7 @@ function Team() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <h1 className='text-center'>Core Team</h1>
-                        <div className="d-flex person-cards flex-wrap">
+                        <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
                             <div className="person">
                                 <div className="content">
                                     <h4>Name</h4>
@@ -134,7 +134,7 @@ function Team() {
                     </div>
                     <div className="carousel-item">
                         <h1 className='text-center'>Mechanical Team</h1>
-                        <div className="d-flex person-cards flex-wrap">
+                        <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
                             <div className="person">
                                 <div className="content">
                                     <h4>Name</h4>
@@ -244,7 +244,7 @@ function Team() {
                     <div className="carousel-item">
                         {/* <img className="d-block w-100" src={elec} alt="Third slide" /> */}
                         <h1 className='text-center'>Electrical Team</h1>
-                        <div className="d-flex person-cards flex-wrap">
+                        <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
                             <div className="person">
                                 <div className="content">
                                     <h4>Name</h4>
@@ -354,7 +354,7 @@ function Team() {
                     <div className="carousel-item">
                         {/* <img className="d-block w-100" src={spons} alt="Fourth slide" /> */}
                         <h1 className='text-center'>Sponsorship Team</h1>
-                        <div className="d-flex person-cards flex-wrap">
+                        <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
                             <div className="person">
                                 <div className="content">
                                     <h4>Name</h4>
