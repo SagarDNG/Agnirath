@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.68c9c701.css",
-    "main.js": "/static/js/main.dc955bd9.js",
-    "static/media/core.png": "/static/media/core.b44e92f7ff0352cb3e20.png",
-    "static/media/elec.png": "/static/media/elec.f171795ab25c15377fc9.png",
-    "static/media/mech.png": "/static/media/mech.4df86f6bb6024a2b8301.png",
-    "static/media/spons.png": "/static/media/spons.f4797a78484ac218db50.png",
+    "main.css": "/static/css/main.b66ce611.css",
+    "main.js": "/static/js/main.78466dce.js",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
-    "static/media/home-2.png": "/static/media/home-2.1fbb7362b2b0779e312c.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
+    "static/media/person.png": "/static/media/person.b61171618630d5f11f15.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "static/media/testing-grounds.png": "/static/media/testing-grounds.9fb5522ade18d0308f17.png",
     "index.html": "/index.html",
-    "main.68c9c701.css.map": "/static/css/main.68c9c701.css.map",
-    "main.dc955bd9.js.map": "/static/js/main.dc955bd9.js.map"
+    "main.b66ce611.css.map": "/static/css/main.b66ce611.css.map",
+    "main.78466dce.js.map": "/static/js/main.78466dce.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c9c701.css",
-    "static/js/main.dc955bd9.js"
+    "static/css/main.b66ce611.css",
+    "static/js/main.78466dce.js"
   ]
 }
