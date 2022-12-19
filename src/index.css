@@ -143,11 +143,11 @@ div .sponsors:nth-of-type(2n) {
 }
 
 /* moving the arrow icons to right and left */
-.carousel-control-next-icon {
+.homeArrowMarkRight {
     margin-left: 10em;
 }
 
-.carousel-control-prev-icon {
+.homeArrowMarkLeft {
     margin-right: 10em;
 }
 
@@ -193,12 +193,6 @@ div .sponsors:nth-of-type(2n) {
     cursor: pointer;
     display: block;
 }
-
-
-/* .person-cards>div:nth-of-type(1),
-.person-cards>div:nth-of-type(5) {
-    margin: 1rem 2rem 1rem 15rem;
-} */
 
 .person .content {
     padding: 1rem;

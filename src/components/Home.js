@@ -21,11 +21,11 @@ function Home() {
                     </div>
                 </div>
                 <button className="carousel-control-prev" data-bs-target="#AgnirathImages" type="button" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="carousel-control-prev-icon homeArrowMarkLeft" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button >
                 <button className="carousel-control-next" data-bs-target="#AgnirathImages" type="button" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="carousel-control-next-icon homeArrowMarkRight" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button >
             </div>
