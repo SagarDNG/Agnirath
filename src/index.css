@@ -357,6 +357,7 @@ div .sponsors:nth-of-type(2n) {
     .vision {
         flex-direction: column;
         align-items: flex-start;
+        margin-left: 2em;
     }
 
     .footer-text {
