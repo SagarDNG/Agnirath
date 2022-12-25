@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Logo from "../images/testing-grounds.png"
+import Logo from "../images/competitions.png"
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,11 +14,15 @@ function Competitions() {
                 <img data-aos="fade-right" src={Logo} alt="" className='competitionsLogo' />
             </div>
             <div data-aos="fade-down-left" className='col-9 d-flex'>
-                <div className='competitions'>
-                    <p></p>
+                <div className='competitions d-flex justify-content-center align-items-center'>
+                    Name of the Competition
                 </div>
-                <div className='competitions'></div>
-                <div className='competitions'></div>
+                <div className='competitions d-flex justify-content-center align-items-center'>
+                    Name of the Competition
+                </div>
+                <div className='competitions d-flex justify-content-center align-items-center'>
+                    Name of the Competition
+                </div>
             </div>
         </div>
     )

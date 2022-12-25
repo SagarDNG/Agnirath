@@ -15,11 +15,10 @@ function Sponsors() {
             <div className='col-3'>
                 <img data-aos="fade-right" src={Logo} alt="" className='sponsorsLogo' />
             </div>
-            <div className='col-9 d-flex parentSponser' data-aos="fade-up-left">
-                <div className="sponsors"></div>
-                <div className="sponsors"></div>
-                <div className="sponsors"></div>
-                <div className="sponsors"></div>
+            <div className='col-9 d-flex justify-content-center parentSponser' data-aos="fade-up-left">
+                <div className='competitions d-flex justify-content-center align-items-center'>
+                    Name of the Sponsor
+                </div>
             </div>
         </div>
     )

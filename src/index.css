@@ -36,18 +36,43 @@
 }
 
 div .competitions {
-    width: 300px;
-    height: 200px;
-    background-color: yellow;
-    transform: skewX(50deg);
-    margin-right: 25px;
+    width: 18rem;
+    height: 14rem;
+    background-image: url('https://cdn.futura-sciences.com/sources/images/dossier/773/01-intro-773.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5rem;
+    transition: 500ms;
+    margin-right: 2rem;
 }
 
-div .competitions p {
+div .competitions:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+div .competitions>img {
+    /* width: 300px;
+    height: 200px;
+    border-radius: 2rem;
+    transition: 500ms; */
+    /* background-color: yellow;
+    
+     */
+}
+
+/* div .competitions>img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 500ms;
+} */
+
+/* div .competitions p {
     margin-left: 100px;
     transform: skewX(-50deg);
     color: black;
-}
+} */
 
 div .parentSponsor {
     /* border: 2px solid white; */
@@ -218,7 +243,7 @@ div .sponsors:nth-of-type(2n) {
     margin: 0 12rem;
 }
 
-.vision ul {
+/* .vision ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -257,6 +282,11 @@ div .sponsors:nth-of-type(2n) {
 .vision {
     flex-direction: row;
     align-items: center;
+} */
+
+.about,
+.vision>p {
+    font-size: larger;
 }
 
 /* Mobile Design */
@@ -354,11 +384,11 @@ div .sponsors:nth-of-type(2n) {
         margin: 0;
     }
 
-    .vision {
+    /* .vision {
         flex-direction: column;
         align-items: flex-start;
         margin-left: 2em;
-    }
+    } */
 
     .footer-text {
         font-size: small;
