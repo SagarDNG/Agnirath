@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.29ea5054.css",
-    "main.js": "/static/js/main.5635903a.js",
+    "main.css": "/static/css/main.ef007e0a.css",
+    "main.js": "/static/js/main.673af0dc.js",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
     "static/media/person.png": "/static/media/person.b61171618630d5f11f15.png",
+    "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
-    "static/media/testing-grounds.png": "/static/media/testing-grounds.9fb5522ade18d0308f17.png",
     "index.html": "/index.html",
-    "main.29ea5054.css.map": "/static/css/main.29ea5054.css.map",
-    "main.5635903a.js.map": "/static/js/main.5635903a.js.map"
+    "main.ef007e0a.css.map": "/static/css/main.ef007e0a.css.map",
+    "main.673af0dc.js.map": "/static/js/main.673af0dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.29ea5054.css",
-    "static/js/main.5635903a.js"
+    "static/css/main.ef007e0a.css",
+    "static/js/main.673af0dc.js"
   ]
 }
