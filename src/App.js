@@ -18,8 +18,8 @@ function App() {
       <About />
       <Vision />
       <Team />
-      {/* <Competitions />
-      <Sponsors /> */}
+      <Competitions />
+      <Sponsors />
       <Contact />
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Logo from "../images/sponsors.png"
+import Logo from "../images/sponsor.png"
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -11,16 +11,16 @@ function Sponsors() {
     }, []);
 
     return (
-        <div id='sponsors' className='row align-items-center mb-5 px-5'>
-            <div className='col-3'>
+        <div id='sponsors' className='d-flex justify-content-around align-items-center mb-5 px-5'>
+            <div>
                 <img data-aos="fade-right" src={Logo} alt="" className='sponsorsLogo' />
             </div>
-            <div className='col-9 d-flex justify-content-center parentSponser' data-aos="fade-up-left">
-                <div className='competitions d-flex justify-content-center align-items-center'>
-                    Name of the Sponsor
+            <div className='d-flex justify-content-center parentSponser' data-aos="fade-up-left">
+                <div className='sponsors d-flex justify-content-center align-items-center'>
+                    {/* <a href="">Reliance</a> */}
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

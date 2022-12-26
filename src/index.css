@@ -35,21 +35,56 @@
     height: 3rem;
 }
 
-div .competitions {
-    width: 18rem;
+.competitions,
+.sponsors {
+    width: 16rem;
     height: 14rem;
-    background-image: url('https://cdn.futura-sciences.com/sources/images/dossier/773/01-intro-773.jpg');
-    background-size: cover;
-    background-position: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: 500ms;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
 }
 
-div .competitions:hover {
+.sponsors {
+    width: 18rem;
+    background-image: url('./images/reliance.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.competitions:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: 500ms;
+}
+
+div .competitions:nth-of-type(1) {
+    background-image: url('./images/574-5742001_bridgestone-world-solar-challenge-primary-logo-solar-car.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div .competitions:nth-of-type(2) {
+    background-image: url('./images/SolarChallenge-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div .competitions:nth-of-type(3) {
+    background-image: url('./images/NASClogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div .competitions:nth-of-type(4) {
+    background-image: url('./images/iesc-300x123.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* div .competitions>img { */
@@ -79,20 +114,20 @@ div .parentSponsor {
     height: 300px;
 }
 
-div .sponsors {
+/* div .sponsors {
     width: 300px;
     height: 200px;
     background-color: yellow;
     margin-right: 25px;
-}
+} */
 
-div .sponsors:nth-of-type(1n) {
+/* div .sponsors:nth-of-type(1n) {
     align-self: flex-start;
-}
+} */
 
-div .sponsors:nth-of-type(2n) {
+/* div .sponsors:nth-of-type(2n) {
     align-self: flex-end;
-}
+} */
 
 .FooterLogos .IITM,
 .FooterLogos .CFI,
@@ -177,6 +212,7 @@ div .sponsors:nth-of-type(2n) {
 }
 
 .contact-email {
+    font-size: large;
     text-decoration: none;
     color: #f07510;
     transition: .5s;
@@ -325,11 +361,17 @@ div .sponsors:nth-of-type(2n) {
 
     .aboutLogo,
     .visionLogo,
+    .teamLogo {
+        margin-left: -3em;
+    }
+
+    .aboutLogo,
+    .visionLogo,
     .teamLogo,
     .competitionsLogo,
     .sponsorsLogo,
     .contactLogo {
-        margin-left: -3em;
+        width: 12rem;
     }
 
     .about,
@@ -339,14 +381,13 @@ div .sponsors:nth-of-type(2n) {
     }
 
     .contact-email {
-        margin-left: -5em;
         padding: 1em;
     }
 
-    #competitions,
+    /* #competitions,
     #sponsors {
         display: none;
-    }
+    } */
 
     .person {
         width: 150px;
@@ -392,5 +433,12 @@ div .sponsors:nth-of-type(2n) {
 
     .footer-text {
         font-size: small;
+    }
+
+    .competitions,
+    .sponsors {
+        width: 8rem;
+        height: 6rem;
+        margin: .6rem 1rem;
     }
 }
