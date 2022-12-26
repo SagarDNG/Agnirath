@@ -14,7 +14,7 @@ function Vision() {
                 <img data-aos="fade-right" src={Logo} alt="" className='visionLogo' />
             </div>
             <div className='vision col-8 d-flex justify-content-around'>
-                <p className='text-center'>Pushing the engineering limits to create competent Engineers for a sustainable future.</p>
+                <p data-aos="fade-down" className='text-center'>Pushing the engineering limits to create competent Engineers for a sustainable future.</p>
             </div>
         </div>
     )

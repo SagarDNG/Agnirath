@@ -19,7 +19,7 @@ function Contact() {
                     <img data-aos="fade-right" src={Logo} alt="" className='contactLogo mb-3' />
                 </div>
                 <div>
-                    <p><a className='contact-email' href="mailto:agnirath@smail.iitm.ac.in">agnirath@smail.iitm.ac.in</a></p>
+                    <p data-aos="fade-left" ><a className='contact-email' href="mailto:agnirath@smail.iitm.ac.in">agnirath@smail.iitm.ac.in</a></p>
                 </div>
             </div>
 
