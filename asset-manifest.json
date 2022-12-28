@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.62f00917.css",
-    "main.js": "/static/js/main.2045bcc3.js",
+    "main.css": "/static/css/main.9653e3bf.css",
+    "main.js": "/static/js/main.6e46458b.js",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
     "static/media/person.png": "/static/media/person.b61171618630d5f11f15.png",
+    "static/media/IMG-20221021-WA0015 - Bindusara Reddy na20b013.jpg": "/static/media/IMG-20221021-WA0015 - Bindusara Reddy na20b013.e62d9267176747cb165d.jpg",
+    "static/media/IMG_20221227_104409 - Rishabh Sumit Sharma na20b051.jpg": "/static/media/IMG_20221227_104409 - Rishabh Sumit Sharma na20b051.d48efa36d7166dee8037.jpg",
+    "static/media/IMG_20210411_151027 - Raaed Shajihan me20b141.jpg": "/static/media/IMG_20210411_151027 - Raaed Shajihan me20b141.f62fbc5fa29b6f35985a.jpg",
     "static/media/sponsor.png": "/static/media/sponsor.d535eb6efb88c627060f.png",
     "static/media/about.png": "/static/media/about.062527bb6404d28b3501.png",
     "static/media/team.png": "/static/media/team.509c530d8ad22df80934.png",
@@ -13,11 +16,11 @@
     "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "index.html": "/index.html",
-    "main.62f00917.css.map": "/static/css/main.62f00917.css.map",
-    "main.2045bcc3.js.map": "/static/js/main.2045bcc3.js.map"
+    "main.9653e3bf.css.map": "/static/css/main.9653e3bf.css.map",
+    "main.6e46458b.js.map": "/static/js/main.6e46458b.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f00917.css",
-    "static/js/main.2045bcc3.js"
+    "static/css/main.9653e3bf.css",
+    "static/js/main.6e46458b.js"
   ]
 }
