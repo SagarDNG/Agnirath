@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a31f199.css",
+    "main.css": "/static/css/main.72fd492b.css",
     "main.js": "/static/js/main.2045bcc3.js",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
@@ -13,11 +13,11 @@
     "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "index.html": "/index.html",
-    "main.7a31f199.css.map": "/static/css/main.7a31f199.css.map",
+    "main.72fd492b.css.map": "/static/css/main.72fd492b.css.map",
     "main.2045bcc3.js.map": "/static/js/main.2045bcc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a31f199.css",
+    "static/css/main.72fd492b.css",
     "static/js/main.2045bcc3.js"
   ]
 }
