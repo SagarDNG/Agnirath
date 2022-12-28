@@ -16,7 +16,7 @@ function Team() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='team' className='row mb-5 align-items-center d-fflex'>
+        <div id='team' className='row mb-5 align-items-center d-flex'>
             <div className="col-3 mb-5">
                 <img data-aos="fade-right" src={Logo} alt="" className='teamLogo' />
             </div>

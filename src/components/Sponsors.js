@@ -11,13 +11,13 @@ function Sponsors() {
     }, []);
 
     return (
-        <div id='sponsors' className='d-flex justify-content-around align-items-center mb-5 px-5'>
+        <div id='sponsors' className='d-flex justify-content-around align-items-center mb-5'>
             <div>
                 <img data-aos="fade-right" src={Logo} alt="" className='sponsorsLogo' />
             </div>
-            <div className='d-flex justify-content-center parentSponser' data-aos="fade-up-left">
+            <div className='d-flex justify-content-center' data-aos="fade-up-left">
                 <div className='sponsors d-flex justify-content-center align-items-center'>
-                    {/* <a href="">Reliance</a> */}
+                    <a href="https://www.ril.com/OurBusinesses/New-Energy.aspx">Reliance</a>
                 </div>
             </div>
         </div >

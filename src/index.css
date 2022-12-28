@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: linear-gradient(to bottom right, rgb(253, 0, 0), rgb(48, 3, 3)); */
     background-color: #000000;
     color: white;
     scroll-behavior: smooth;
@@ -12,8 +11,7 @@
 
 .navbar {
     background-color: #000000;
-    /* position: fixed;
-    top: 0; */
+    top: 0;
 }
 
 .navbar div a {
@@ -41,93 +39,35 @@
     height: 14rem;
     font-size: 1.2rem;
     transition: 500ms;
-    margin-right: 1rem;
+    margin: .5rem;
     border-radius: 1rem;
+    border: 2px solid rgb(21, 178, 217, 0.1);
+    box-shadow: rgba(7, 129, 165, 0.7) 0px 5px 10px, rgba(18, 147, 186, 0.78) 0px 3px 5px;
 }
 
-.sponsors {
-    width: 18rem;
-    background-image: url('./images/reliance.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.competitions>a,
+.sponsors>a {
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
 }
 
-.competitions:hover {
+.competitions>a:hover,
+.sponsors>a:hover {
+    color: #f07510;
+    transition: 500ms;
+}
+
+.competitions:hover,
+.sponsors:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: 500ms;
 }
-
-div .competitions:nth-of-type(1) {
-    background-image: url('./images/574-5742001_bridgestone-world-solar-challenge-primary-logo-solar-car.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-div .competitions:nth-of-type(2) {
-    background-image: url('./images/SolarChallenge-logo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-div .competitions:nth-of-type(3) {
-    background-image: url('./images/NASClogo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-div .competitions:nth-of-type(4) {
-    background-image: url('./images/iesc-300x123.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* div .competitions>img { */
-/* width: 300px;
-    height: 200px;
-    border-radius: 2rem;
-    transition: 500ms; */
-/* background-color: yellow;
-    
-     */
-/* } */
-
-/* div .competitions>img:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: 500ms;
-} */
-
-/* div .competitions p {
-    margin-left: 100px;
-    transform: skewX(-50deg);
-    color: black;
-} */
 
 div .parentSponsor {
-    /* border: 2px solid white; */
     height: 300px;
 }
-
-/* div .sponsors {
-    width: 300px;
-    height: 200px;
-    background-color: yellow;
-    margin-right: 25px;
-} */
-
-/* div .sponsors:nth-of-type(1n) {
-    align-self: flex-start;
-} */
-
-/* div .sponsors:nth-of-type(2n) {
-    align-self: flex-end;
-} */
 
 .FooterLogos .IITM,
 .FooterLogos .CFI,
@@ -166,7 +106,7 @@ div .parentSponsor {
 @media screen and (min-width: 444px) {
 
     .aboutLogo {
-        margin-left: 1em;
+        margin-left: 1rem;
         height: 120px;
         width: 300px;
     }
@@ -268,7 +208,6 @@ div .parentSponsor {
 
 .person:hover .content {
     transform: translateY(-10%);
-    /* transition: transform .5s ease; */
 }
 
 .person .contact a {
@@ -279,50 +218,14 @@ div .parentSponsor {
     margin: 0 12rem;
 }
 
-/* .vision ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.vision ul:before {
-    content: "";
-    display: inline-block;
-    width: 5px;
-    background: #0dec14;
-    position: absolute;
-    left: 3px;
-    top: 7px;
-    height: calc(100% - 30px);
-}
-
-.vision ul>li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 20px;
-}
-
-.vision li:before {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: rgb(40, 206, 239);
-    position: absolute;
-    left: -3px;
-    top: 7px;
-    border-radius: 10px;
-}
-
-.vision {
-    flex-direction: row;
-    align-items: center;
-} */
-
 .about,
 .vision>p {
     font-size: larger;
+}
+
+#about,
+#vision {
+    padding: 0 2rem;
 }
 
 /* Mobile Design */
@@ -348,7 +251,7 @@ div .parentSponsor {
     .FooterLogos {
         display: flex;
         flex-direction: column;
-        margin-top: 2em;
+        margin-top: 3em;
     }
 
     .teamLogo {
@@ -375,19 +278,15 @@ div .parentSponsor {
     }
 
     .about,
-    .vision {
+    .vision>p {
         padding: 2em 0;
         line-height: 1.5em;
+        font-size: 1rem;
     }
 
     .contact-email {
         padding: 1em;
     }
-
-    /* #competitions,
-    #sponsors {
-        display: none;
-    } */
 
     .person {
         width: 150px;
@@ -414,7 +313,6 @@ div .parentSponsor {
 
     .person:hover .content {
         transform: translateY(0);
-        /* transition: transform .5s ease; */
     }
 
     .person .contact a {
@@ -425,20 +323,15 @@ div .parentSponsor {
         margin: 0;
     }
 
-    /* .vision {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 2em;
-    } */
-
     .footer-text {
         font-size: small;
     }
 
     .competitions,
     .sponsors {
-        width: 8rem;
-        height: 6rem;
-        margin: .6rem 1rem;
+        width: 10rem;
+        height: 7rem;
+        margin: 1rem;
+        font-size: 1rem;
     }
 }

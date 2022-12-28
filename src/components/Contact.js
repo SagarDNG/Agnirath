@@ -14,7 +14,7 @@ function Contact() {
     }, []);
     return (
         <>
-            <div id='contact' className='d-flex justify-content-around align-items-center mb-4 px-5'>
+            <div id='contact' className='d-flex justify-content-around align-items-center mb-4'>
                 <div>
                     <img data-aos="fade-right" src={Logo} alt="" className='contactLogo mb-3' />
                 </div>
