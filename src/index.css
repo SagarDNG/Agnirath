@@ -177,8 +177,9 @@ div .parentSponsor {
     display: flex;
 }
 
-#home {
-    min-height: 900px;
+#home img {
+    /* min-height: 900px; */
+    height: 100vh;
 }
 
 .person {
@@ -239,7 +240,7 @@ div .parentSponsor {
     }
 
     #home {
-        min-height: 250px;
+        display: none;
     }
 
     #about,
@@ -329,7 +330,7 @@ div .parentSponsor {
 
     .competitions,
     .sponsors {
-        width: 10rem;
+        width: 8rem;
         height: 7rem;
         margin: 1rem;
         font-size: 1rem;

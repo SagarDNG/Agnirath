@@ -25,12 +25,12 @@ function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link text-light" href="#team">Team</a>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <a className="nav-link text-light" href="#competitions">Competitions</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-light" href="#sponsors">Sponsors</a>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link text-light" href="#contact">Contact</a>
                         </li>
