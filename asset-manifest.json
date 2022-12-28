@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b96e073.css",
-    "main.js": "/static/js/main.6096489a.js",
+    "main.css": "/static/css/main.ef684138.css",
+    "main.js": "/static/js/main.1547857c.js",
     "static/media/sanjay - Sanjay Keyan na21b062.jpg": "/static/media/sanjay - Sanjay Keyan na21b062.247b722fa3659ae17173.jpg",
     "static/media/mee - Akash Thakur ae21b102.jpg": "/static/media/mee - Akash Thakur ae21b102.fd2ff8ed4281c79961a7.jpg",
     "static/media/IMG_20220227_173838 - Dhruv Bawa me20b061.jpg": "/static/media/IMG_20220227_173838 - Dhruv Bawa me20b061.75147c81b0ee5f898f3a.jpg",
     "static/media/Pushpa_profile_pic - Pushpa Chaudhary ee21b109.jpg": "/static/media/Pushpa_profile_pic - Pushpa Chaudhary ee21b109.5537aa5eb8367d1d88a2.jpg",
-    "static/media/IMG_20211228_125339-01 - Parveet Kumar ee21b099.jpeg": "/static/media/IMG_20211228_125339-01 - Parveet Kumar ee21b099.1684b9798e4ca4100e0b.jpeg",
     "static/media/IMG_20220807_175843 - Ananth Kulkarni me21b020.jpg": "/static/media/IMG_20220807_175843 - Ananth Kulkarni me21b020.504201d36cc042613758.jpg",
+    "static/media/IMG_20211228_125339-01 - Parveet Kumar ee21b099.jpeg": "/static/media/IMG_20211228_125339-01 - Parveet Kumar ee21b099.782e9a17c3944bca879d.jpeg",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
     "static/media/IMG_20220728_132150 - Ram Parameswar Menon ce21b104.jpg": "/static/media/IMG_20220728_132150 - Ram Parameswar Menon ce21b104.ca0911c0570b541a7791.jpg",
@@ -32,11 +32,11 @@
     "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "index.html": "/index.html",
-    "main.2b96e073.css.map": "/static/css/main.2b96e073.css.map",
-    "main.6096489a.js.map": "/static/js/main.6096489a.js.map"
+    "main.ef684138.css.map": "/static/css/main.ef684138.css.map",
+    "main.1547857c.js.map": "/static/js/main.1547857c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b96e073.css",
-    "static/js/main.6096489a.js"
+    "static/css/main.ef684138.css",
+    "static/js/main.1547857c.js"
   ]
 }
