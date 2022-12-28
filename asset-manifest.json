@@ -1,11 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9653e3bf.css",
-    "main.js": "/static/js/main.24bf4fec.js",
+    "main.css": "/static/css/main.2b96e073.css",
+    "main.js": "/static/js/main.6096489a.js",
+    "static/media/sanjay - Sanjay Keyan na21b062.jpg": "/static/media/sanjay - Sanjay Keyan na21b062.247b722fa3659ae17173.jpg",
+    "static/media/mee - Akash Thakur ae21b102.jpg": "/static/media/mee - Akash Thakur ae21b102.fd2ff8ed4281c79961a7.jpg",
+    "static/media/IMG_20220227_173838 - Dhruv Bawa me20b061.jpg": "/static/media/IMG_20220227_173838 - Dhruv Bawa me20b061.75147c81b0ee5f898f3a.jpg",
+    "static/media/Pushpa_profile_pic - Pushpa Chaudhary ee21b109.jpg": "/static/media/Pushpa_profile_pic - Pushpa Chaudhary ee21b109.5537aa5eb8367d1d88a2.jpg",
+    "static/media/IMG_20211228_125339-01 - Parveet Kumar ee21b099.jpeg": "/static/media/IMG_20211228_125339-01 - Parveet Kumar ee21b099.1684b9798e4ca4100e0b.jpeg",
+    "static/media/IMG_20220807_175843 - Ananth Kulkarni me21b020.jpg": "/static/media/IMG_20220807_175843 - Ananth Kulkarni me21b020.504201d36cc042613758.jpg",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
+    "static/media/IMG_20220728_132150 - Ram Parameswar Menon ce21b104.jpg": "/static/media/IMG_20220728_132150 - Ram Parameswar Menon ce21b104.ca0911c0570b541a7791.jpg",
+    "static/media/Chirag Meher photo NA21B019 - Chirag Meher na21b019.jpeg": "/static/media/Chirag Meher photo NA21B019 - Chirag Meher na21b019.fb4eb9672ebcc3e9be39.jpeg",
+    "static/media/Sagar.jpeg": "/static/media/Sagar.fb072cb1b4092414d247.jpeg",
     "static/media/person.png": "/static/media/person.b61171618630d5f11f15.png",
+    "static/media/PHOTO-2022-02-27-15-56-04 - Kunjeti Dharanidhar Gupta ep21b022.jpg": "/static/media/PHOTO-2022-02-27-15-56-04 - Kunjeti Dharanidhar Gupta ep21b022.0b24eb71c2cbad20c267.jpg",
+    "static/media/IMG_20200113_073744_796 - Jaayanth Srrinivas Kumaran ed21b029.jpg": "/static/media/IMG_20200113_073744_796 - Jaayanth Srrinivas Kumaran ed21b029.d0c383f6eb7759466395.jpg",
+    "static/media/79749 - Damyanti na21b020.JPEG": "/static/media/79749 - Damyanti na21b020.9793ef41b5df24c4e309.JPEG",
     "static/media/IMG-20221021-WA0015 - Bindusara Reddy na20b013.jpg": "/static/media/IMG-20221021-WA0015 - Bindusara Reddy na20b013.e62d9267176747cb165d.jpg",
+    "static/media/PHOTO-2022-12-26-07-22-50 - Pradyum Kaneria me21b142.jpg": "/static/media/PHOTO-2022-12-26-07-22-50 - Pradyum Kaneria me21b142.ed7a8dba5ea25b373cae.jpg",
+    "static/media/Pragyan - Pragyandipta Mishra am19d751.jpg": "/static/media/Pragyan - Pragyandipta Mishra am19d751.89b8c0e67a4fa271448b.jpg",
+    "static/media/1668877814338 - Sreesudhan B ae21b057.jpg": "/static/media/1668877814338 - Sreesudhan B ae21b057.1e8ffdff95721402df1a.jpg",
+    "static/media/agnirath - Surya Sai Pranav Mantripragada me21b203.jpg": "/static/media/agnirath - Surya Sai Pranav Mantripragada me21b203.2bce1a86ec2a84b53bc3.jpg",
     "static/media/IMG_20221227_104409 - Rishabh Sumit Sharma na20b051.jpg": "/static/media/IMG_20221227_104409 - Rishabh Sumit Sharma na20b051.d48efa36d7166dee8037.jpg",
     "static/media/IMG_20210411_151027 - Raaed Shajihan me20b141.jpg": "/static/media/IMG_20210411_151027 - Raaed Shajihan me20b141.f62fbc5fa29b6f35985a.jpg",
     "static/media/sponsor.png": "/static/media/sponsor.d535eb6efb88c627060f.png",
@@ -16,11 +32,11 @@
     "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "index.html": "/index.html",
-    "main.9653e3bf.css.map": "/static/css/main.9653e3bf.css.map",
-    "main.24bf4fec.js.map": "/static/js/main.24bf4fec.js.map"
+    "main.2b96e073.css.map": "/static/css/main.2b96e073.css.map",
+    "main.6096489a.js.map": "/static/js/main.6096489a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9653e3bf.css",
-    "static/js/main.24bf4fec.js"
+    "static/css/main.2b96e073.css",
+    "static/js/main.6096489a.js"
   ]
 }
