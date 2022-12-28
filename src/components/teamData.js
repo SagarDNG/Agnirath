@@ -95,7 +95,7 @@ export const Mech = [
         'username': 'Kartik',
         'rollNumber': 'NA20B053',
         'subModule': 'Aerodynamics',
-        'linkedIn': 'linkedin.com/in/kartik-ruikar-2605',
+        'linkedIn': 'https://www.linkedin.com/in/kartik-ruikar-2605',
         'email': 'na20b053@smail.iitm.ac.in ',
     },
 ]
@@ -189,7 +189,7 @@ export const Spons = [
         'username': 'Sagar',
         'rollNumber': 'ED20B054',
         'subModule': 'NA',
-        'linkedIn': 'LinkedIn.com/in/SagarNagapnor',
+        'linkedIn': 'https://www.linkedIn.com/in/SagarNagapnor',
         'email': 'ed20b054@smail.iitm.ac.in',
     },
     // {
