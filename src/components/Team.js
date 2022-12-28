@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react'
 import Logo from "../images/team.png"
-// import core from "../images/core.png"
-// import mech from "../images/mech.png"
-// import elec from "../images/elec.png"
-// import spons from "../images/spons.png"
-
+import { Core, Mech, Elec, Spons } from './teamData';
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -23,442 +19,85 @@ function Team() {
 
             <div id="teamImages" className="carousel slide col-12" data-bs-ride="carousel">
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
+                    <div className="core carousel-item active">
                         <h1 className='text-center'>Core Team</h1>
                         <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
+                            {Core.map((person) =>
+                                <div className="person">
+                                    <div className="content">
+                                        <h4>{person.username}</h4>
+                                        {/* {(person.subModule !== 'NA') ? `${person.subModule}` : ''} */}
+                                        <div className="contact">
+                                            <a href={person.linkedIn}>
+                                                <FaLinkedin className='Linkedin' />
+                                            </a>
+                                            <a href={`mailto:${person.email}`}>
+                                                <FiMail className='Mail' />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            )}
                         </div>
                     </div>
-                    <div className="carousel-item">
+                    <div className="mech carousel-item">
                         <h1 className='text-center'>Mechanical Team</h1>
                         <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
+                            {Mech.map((person) =>
+                                <div className="person">
+                                    <div className="content">
+                                        <h4>{person.username}</h4>
+                                        <div className="contact">
+                                            <a href={person.linkedIn}>
+                                                <FaLinkedin className='Linkedin' />
+                                            </a>
+                                            <a href={`mailto:${person.email}`}>
+                                                <FiMail className='Mail' />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            )}
                         </div>
                     </div>
-                    <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={elec} alt="Third slide" /> */}
+                    <div className="elec carousel-item">
                         <h1 className='text-center'>Electrical Team</h1>
                         <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
+                            {Elec.map((person) =>
+                                <div className="person">
+                                    <div className="content">
+                                        <h4>{person.username}</h4>
+                                        <div className="contact">
+                                            <a href={person.linkedIn}>
+                                                <FaLinkedin className='Linkedin' />
+                                            </a>
+                                            <a href={`mailto:${person.email}`}>
+                                                <FiMail className='Mail' />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            )}
                         </div>
                     </div>
-                    <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={spons} alt="Fourth slide" /> */}
-                        <h1 className='text-center'>Sponsorship Team</h1>
+                    <div className="spons carousel-item">
+                        <h1 className='text-center'>Sponsorship and PR Team</h1>
                         <div className="d-flex person-cards flex-wrap teamSection justify-content-center">
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
+                            {Spons.map((person) =>
+                                <div className="person">
+                                    <div className="content">
+                                        <h4>{person.username}</h4>
+                                        <div className="contact">
+                                            <a href={person.linkedIn}>
+                                                <FaLinkedin className='Linkedin' />
+                                            </a>
+                                            <a href={`mailto:${person.email}`}>
+                                                <FiMail className='Mail' />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="person">
-                                <div className="content">
-                                    <h4>Name</h4>
-                                    <div className="contact">
-                                        <a href="https://www.linkedin.com/company/team-4gnirath/mycompany/">
-                                            <FaLinkedin className='Linkedin' />
-                                        </a>
-                                        <a href="mailto:agnirath@smail.iitm.ac.in">
-                                            <FiMail className='Mail' />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            )}
                         </div>
                     </div>
                 </div>

@@ -117,12 +117,6 @@ div .parentSponsor {
         width: 300px;
     }
 
-    .teamLogo {
-        margin-left: 1em;
-        height: 120px;
-        width: 300px;
-    }
-
     .competitionsLogo {
         margin-left: 1em;
         height: 120px;
@@ -178,7 +172,6 @@ div .parentSponsor {
 }
 
 #home img {
-    /* min-height: 900px; */
     height: 100vh;
 }
 
@@ -195,6 +188,96 @@ div .parentSponsor {
     cursor: pointer;
     display: block;
 }
+
+/* Background images for the team section */
+.core .person:nth-of-type(1) {
+    background-image: url(./images/IMG_20221227_104409\ -\ Rishabh\ Sumit\ Sharma\ na20b051.jpg);
+}
+
+.core .person:nth-of-type(2) {
+    background-image: url(./images/IMG-20221021-WA0015\ -\ Bindusara\ Reddy\ na20b013.jpg);
+}
+
+.core .person:nth-of-type(3) {
+    background-image: url(./images/IMG_20210411_151027\ -\ Raaed\ Shajihan\ me20b141.jpg);
+}
+
+.mech .person:nth-of-type(1) {
+    background-image: url(./images/IMG_20220807_175843\ -\ Ananth\ Kulkarni\ me21b020.jpg);
+}
+
+.mech .person:nth-of-type(2) {
+    background-image: url(./images/sanjay\ -\ Sanjay\ Keyan\ na21b062.jpg);
+}
+
+.mech .person:nth-of-type(3) {
+    background-image: url(./images/Pragyan\ -\ Pragyandipta\ Mishra\ am19d751.jpg);
+}
+
+.mech .person:nth-of-type(4) {
+    background-image: url(./images/1668877814338\ -\ Sreesudhan\ B\ ae21b057.jpg);
+}
+
+.mech .person:nth-of-type(5) {
+    background-image: url(./images/PHOTO-2022-12-26-07-22-50\ -\ Pradyum\ Kaneria\ me21b142.jpg);
+}
+
+.mech .person:nth-of-type(6) {
+    background-image: url(./images/agnirath\ -\ Surya\ Sai\ Pranav\ Mantripragada\ me21b203.jpg);
+}
+
+.mech .person:nth-of-type(7) {
+    background-image: url(./images/IMG_20220227_173838\ -\ Dhruv\ Bawa\ me20b061.jpg);
+}
+
+.mech .person:nth-of-type(8) {
+    background-image: url(./images/mee\ -\ Akash\ Thakur\ ae21b102.jpg);
+}
+
+/* .mech .person:nth-of-type(9) {
+    background-image: url(./images/);
+} */
+.elec .person:nth-of-type(1) {
+    background-image: url(./images/IMG_20200113_073744_796\ -\ Jaayanth\ Srrinivas\ Kumaran\ ed21b029.jpg);
+}
+
+.elec .person:nth-of-type(2) {
+    background-image: url(./images/PHOTO-2022-02-27-15-56-04\ -\ Kunjeti\ Dharanidhar\ Gupta\ ep21b022.jpg);
+}
+
+.elec .person:nth-of-type(3) {
+    background-image: url(./images/IMG_20220728_132150\ -\ Ram\ Parameswar\ Menon\ ce21b104.jpg);
+}
+
+.elec .person:nth-of-type(4) {
+    background-image: url(./images/IMG_20211228_125339-01\ -\ Parveet\ Kumar\ ee21b099.jpeg);
+}
+
+.elec .person:nth-of-type(5) {
+    background-image: url(./images/Pushpa_profile_pic\ -\ Pushpa\ Chaudhary\ ee21b109.jpg);
+}
+
+/* .elec .person:nth-of-type(6) {
+    background-image: url(./images/);
+} */
+.spons .person:nth-of-type(1) {
+    background-image: url(./images/Chirag\ Meher\ photo\ NA21B019\ -\ Chirag\ Meher\ na21b019.jpeg);
+}
+
+.spons .person:nth-of-type(2) {
+    background-image: url(./images/79749\ -\ Damyanti\ na21b020.JPEG);
+}
+
+/* .spons .person:nth-of-type(3) {
+    background-image: url(./images/);
+}
+.spons .person:nth-of-type(4) {
+    background-image: url(./images/);
+} */
+.spons .person:nth-of-type(5) {
+    background-image: url(./images/Sagar.jpeg);
+}
+
 
 .person .content {
     padding: 1rem;
@@ -216,7 +299,7 @@ div .parentSponsor {
 }
 
 .teamSection {
-    margin: 0 12rem;
+    margin: 0 10rem;
 }
 
 .about,
@@ -231,10 +314,6 @@ div .parentSponsor {
 
 /* Mobile Design */
 @media screen and (max-width: 444px) {
-    .web-css {
-        display: none;
-    }
-
     .mobile-css {
         display: block;
     }
@@ -266,7 +345,7 @@ div .parentSponsor {
     .aboutLogo,
     .visionLogo,
     .teamLogo {
-        margin-left: -3em;
+        margin-left: -4rem;
     }
 
     .aboutLogo,
