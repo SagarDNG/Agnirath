@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2585927.css",
-    "main.js": "/static/js/main.67e0b730.js",
+    "main.css": "/static/css/main.ced85a10.css",
+    "main.js": "/static/js/main.44339e6f.js",
     "static/media/home-3.png": "/static/media/home-3.91469527ca3df068fa18.png",
     "static/media/home-1.png": "/static/media/home-1.adb83285c260a8138a0a.png",
     "static/media/person.png": "/static/media/person.b61171618630d5f11f15.png",
-    "static/media/574-5742001_bridgestone-world-solar-challenge-primary-logo-solar-car.png": "/static/media/574-5742001_bridgestone-world-solar-challenge-primary-logo-solar-car.67d5db1260a4299cbe1d.png",
     "static/media/sponsor.png": "/static/media/sponsor.d535eb6efb88c627060f.png",
-    "static/media/NASClogo.png": "/static/media/NASClogo.5765c3d0f1ad9fac8040.png",
     "static/media/about.png": "/static/media/about.062527bb6404d28b3501.png",
-    "static/media/SolarChallenge-logo.png": "/static/media/SolarChallenge-logo.550d7afee8ffb790c9d1.png",
     "static/media/team.png": "/static/media/team.509c530d8ad22df80934.png",
     "static/media/vision.png": "/static/media/vision.b8ac54e96c5a6ce910f8.png",
     "static/media/join-us.png": "/static/media/join-us.0ebfdd091f57a73469ef.png",
     "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "index.html": "/index.html",
-    "main.c2585927.css.map": "/static/css/main.c2585927.css.map",
-    "main.67e0b730.js.map": "/static/js/main.67e0b730.js.map"
+    "main.ced85a10.css.map": "/static/css/main.ced85a10.css.map",
+    "main.44339e6f.js.map": "/static/js/main.44339e6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2585927.css",
-    "static/js/main.67e0b730.js"
+    "static/css/main.ced85a10.css",
+    "static/js/main.44339e6f.js"
   ]
 }
