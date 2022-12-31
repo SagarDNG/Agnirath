@@ -413,6 +413,10 @@
         padding: 70px 0 0;
     }
 
+    .person:has(.subModule) {
+        padding: 60px 0 0;
+    }
+
     .person-cards>div:nth-of-type(1),
     .person-cards>div:nth-of-type(5) {
         margin: .5rem;
