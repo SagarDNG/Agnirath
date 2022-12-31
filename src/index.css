@@ -220,6 +220,33 @@
     display: block;
 }
 
+.person:has(.subModule) {
+    padding: 105px 0 0;
+}
+
+.person .content {
+    padding: 1rem;
+    background: linear-gradient(hsl(0 0% 0% / 0),
+            hsl(30 0% 0% / 0) 10%,
+            hsl(0 0% 0% / 1));
+    text-align: center;
+    color: #ffffff;
+    transform: translateY(40%);
+    transition: transform .5s ease;
+}
+
+.person:hover .content {
+    transform: translateY(-10%);
+}
+
+.person:has(.subModule):hover .content {
+    transform: translateY(-15%);
+}
+
+.person .contact a {
+    margin: 0 25px;
+}
+
 /* Background images for the team section */
 .core .person:nth-of-type(1) {
     background-image: url(./images/IMG_20221227_104409\ -\ Rishabh\ Sumit\ Sharma\ na20b051.jpg);
@@ -307,25 +334,6 @@
 } */
 .spons .person:nth-of-type(5) {
     background-image: url(./images/Sagar.jpeg);
-}
-
-.person .content {
-    padding: 1rem;
-    background: linear-gradient(hsl(0 0% 0% / 0),
-            hsl(30 0% 0% / 0) 10%,
-            hsl(0 0% 0% / 1));
-    text-align: center;
-    color: #ffffff;
-    transform: translateY(40%);
-    transition: transform .5s ease;
-}
-
-.person:hover .content {
-    transform: translateY(-10%);
-}
-
-.person .contact a {
-    margin: 0 25px;
 }
 
 .teamSection {
@@ -447,7 +455,7 @@
 
     .competitions>a,
     .sponsors>a {
-        font-weight: lighter;
+        font-weight: bolder;
         font-size: 10px;
         padding: .1rem .2rem;
     }
