@@ -41,21 +41,27 @@
     transition: 500ms;
     margin: .5rem;
     border-radius: 1rem;
-    border: 2px solid rgb(21, 178, 217, 0.1);
+    /* border: 2px solid rgb(21, 178, 217, 0.1); */
     box-shadow: rgba(7, 129, 165, 0.7) 0px 5px 10px, rgba(18, 147, 186, 0.78) 0px 3px 5px;
+    background-image: url('https://pbs.twimg.com/media/E8kwyrDUcAMw65l.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.competitions>a,
-.sponsors>a {
-    color: white;
-    text-decoration: none;
-    transition: 500ms;
+.competitions:nth-of-type(2) {
+    background-image: url('https://i0.wp.com/gadget.co.za/wp-content/uploads/2022/09/SSC-0905-11h37-33.jpg');
 }
 
-.competitions>a:hover,
-.sponsors>a:hover {
-    color: #f07510;
-    transition: 500ms;
+.competitions:nth-of-type(3) {
+    background-image: url('https://www.americansolarchallenge.org/ASC/wp-content/uploads/2013/01/IMG_0414_7556365736_l.jpg');
+}
+
+.competitions:nth-of-type(4) {
+    background-image: url('https://pbs.twimg.com/media/EvteWfZXYAAd3Bl?format=jpg');
+}
+
+.sponsors {
+    background-image: url('https://assets.telegraphindia.com/telegraph/2021/Nov/1636915820_15bussolar_3c.jpg');
 }
 
 .competitions:hover,
@@ -65,8 +71,33 @@
     transition: 500ms;
 }
 
-div .parentSponsor {
-    height: 300px;
+.competitions>a {
+    background: #f07510;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .1rem .5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.sponsors>a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.competitions>a:hover,
+.sponsors>a:hover {
+    color: #f07510;
+    background: #fff;
+    transition: 500ms;
+}
+
+.sponsors>a:hover {
+    color: #04ff00;
+    background: none;
 }
 
 .FooterLogos .IITM,
@@ -412,5 +443,12 @@ div .parentSponsor {
         height: 7rem;
         margin: 1rem;
         font-size: 1rem;
+    }
+
+    .competitions>a,
+    .sponsors>a {
+        font-weight: lighter;
+        font-size: 10px;
+        padding: .1rem .2rem;
     }
 }
