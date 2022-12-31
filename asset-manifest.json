@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5600938d.css",
-    "main.js": "/static/js/main.1547857c.js",
+    "main.css": "/static/css/main.092b15f0.css",
+    "main.js": "/static/js/main.b7191fa7.js",
     "static/media/sanjay - Sanjay Keyan na21b062.jpg": "/static/media/sanjay - Sanjay Keyan na21b062.247b722fa3659ae17173.jpg",
     "static/media/mee - Akash Thakur ae21b102.jpg": "/static/media/mee - Akash Thakur ae21b102.fd2ff8ed4281c79961a7.jpg",
     "static/media/IMG_20220227_173838 - Dhruv Bawa me20b061.jpg": "/static/media/IMG_20220227_173838 - Dhruv Bawa me20b061.75147c81b0ee5f898f3a.jpg",
@@ -32,11 +32,11 @@
     "static/media/competitions.png": "/static/media/competitions.e2c29201e6fd40f029eb.png",
     "static/media/agnirath-logo-nav.png": "/static/media/agnirath-logo-nav.a4d28b69887989467277.png",
     "index.html": "/index.html",
-    "main.5600938d.css.map": "/static/css/main.5600938d.css.map",
-    "main.1547857c.js.map": "/static/js/main.1547857c.js.map"
+    "main.092b15f0.css.map": "/static/css/main.092b15f0.css.map",
+    "main.b7191fa7.js.map": "/static/js/main.b7191fa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5600938d.css",
-    "static/js/main.1547857c.js"
+    "static/css/main.092b15f0.css",
+    "static/js/main.b7191fa7.js"
   ]
 }
