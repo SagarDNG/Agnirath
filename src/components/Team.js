@@ -49,7 +49,7 @@ function Team() {
                                 <div className="person">
                                     <div className="content">
                                         <h4>{person.username}</h4>
-                                        <h6 className='subModule'>{person.subModule}</h6>                                        
+                                        <h6 className='subModule'>{person.subModule}</h6>
                                         <div className="contact">
                                             <a href={person.linkedIn}>
                                                 <FaLinkedin className='Linkedin' />
