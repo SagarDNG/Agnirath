@@ -48,6 +48,10 @@
     background-position: center;
 }
 
+.sponsors {
+    width: 22rem;
+}
+
 .competitions:nth-of-type(2) {
     background-image: url('https://i0.wp.com/gadget.co.za/wp-content/uploads/2022/09/SSC-0905-11h37-33.jpg');
 }
@@ -256,7 +260,11 @@
     background-image: url(./images/IMG-20221021-WA0015\ -\ Bindusara\ Reddy\ na20b013.jpg);
 }
 
-.core .person:nth-of-type(3) {
+/* .core .person:nth-of-type(3) {
+    background-image: url(./images);
+} */
+
+.core .person:nth-of-type(4) {
     background-image: url(./images/IMG_20210411_151027\ -\ Raaed\ Shajihan\ me20b141.jpg);
 }
 
@@ -292,7 +300,11 @@
     background-image: url(./images/mee\ -\ Akash\ Thakur\ ae21b102.jpg);
 }
 
-/* .mech .person:nth-of-type(9) {
+.mech .person:nth-of-type(9) {
+    background-image: url(./images/Kartik\ -\ Ruikar\ Kartik\ Deepak\ na20b053.jfif);
+}
+
+/* .mech .person:nth-of-type(10) {
     background-image: url(./images/);
 } */
 .elec .person:nth-of-type(1) {
@@ -315,7 +327,11 @@
     background-image: url(./images/Pushpa_profile_pic\ -\ Pushpa\ Chaudhary\ ee21b109.jpg);
 }
 
-/* .elec .person:nth-of-type(6) {
+.elec .person:nth-of-type(6) {
+    background-image: url(./images/IMG_20221128_062645_2\ -\ Keshaw\ Choudhary\ ee21b069.jpg);
+}
+
+/* .elec .person:nth-of-type(7) {
     background-image: url(./images/);
 } */
 .spons .person:nth-of-type(1) {
@@ -326,12 +342,14 @@
     background-image: url(./images/79749\ -\ Damyanti\ na21b020.JPEG);
 }
 
-/* .spons .person:nth-of-type(3) {
-    background-image: url(./images/);
+.spons .person:nth-of-type(3) {
+    background-image: url(./images/Profile\ Picture\ -\ Sujith\ Kumar\ P\ na20b067.jpeg);
 }
+
 .spons .person:nth-of-type(4) {
-    background-image: url(./images/);
-} */
+    background-image: url(./images/Screenshot_2022-12-27-13-15-20-65_6012fa4d4ddec268fc5c7112cbb265e7\ -\ Chandra\ Prabhat\ Varma\ U\ ae21b012.jpg);
+}
+
 .spons .person:nth-of-type(5) {
     background-image: url(./images/Sagar.jpeg);
 }
@@ -455,6 +473,11 @@
         height: 7rem;
         margin: 1rem;
         font-size: 1rem;
+    }
+
+    .sponsors {
+        width: 12rem;
+        height: 9rem;
     }
 
     .competitions>a,

@@ -16,12 +16,28 @@ export const Core = [
         'email': 'na20b013@smail.iitm.ac.in',
     },
     {
+        'fullName': 'Aditya Ravindran',
+        'username': 'Aditya',
+        'rollNumber': 'NA20B004',
+        'subModule': 'NA',
+        'linkedIn': 'https://www.linkedin.com/in/aditya-ravindran-1b734b211/',
+        'email': 'na20b004@smail.iitm.ac.in',
+    },
+    {
         'fullName': 'Raaed Shajihan',
         'username': 'Raaed',
         'rollNumber': 'me20b141',
         'subModule': 'Chassis',
         'linkedIn': 'https://www.linkedin.com/in/raaed-shajihan',
         'email': 'me20b141@smail.iitm.ac.in',
+    },
+    {
+        'fullName': 'Anirudh Varna',
+        'username': 'Anirudh',
+        'rollNumber': 'NA20B007',
+        'subModule': 'Low voltage',
+        'linkedIn': 'https://www.linkedin.com/in/anirudh-varna-b5b0451b9',
+        'email': 'anirudhrubix@gmail.com',
     },
 ]
 
@@ -148,7 +164,16 @@ export const Elec = [
         'subModule': 'High voltage',
         'linkedIn': '',
         'email': 'keshawchoudhary152@gmail.com',
-    }
+    },
+    {
+        'fullName': 'Fardeen',
+        'username': 'Fardeen',
+        'rollNumber': 'EE21B046',
+        'subModule': 'High voltage',
+        'linkedIn': 'https://www.linkedin.com/in/fardeen-razif',
+        'email': 'ee21b046@smail.iitm.ac.in',
+    },
+
 ]
 
 export const Spons = [
