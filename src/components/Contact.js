@@ -18,8 +18,13 @@ function Contact() {
                 <div>
                     <img data-aos="fade-right" src={Logo} alt="" className='contactLogo mb-3' />
                 </div>
-                <div>
-                    <p data-aos="fade-left" ><a className='contact-email' href="mailto:agnirath@smail.iitm.ac.in">agnirath@smail.iitm.ac.in</a></p>
+                <div data-aos="fade-left" className='text-center'>
+                    <p>
+                        Email: <a className='contact-email' href="mailto:agnirath@smail.iitm.ac.in">agnirath@smail.iitm.ac.in</a>
+                    </p>
+                    <p>
+                        Phone: <a className='contact-email' href="tel:+917710936213">+91 77109 36213</a>, <a className='contact-email' href="tel:+919884913874">+91 98849 13874</a>
+                    </p>
                 </div>
             </div>
 

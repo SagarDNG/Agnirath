@@ -180,10 +180,16 @@
     margin-right: 10em;
 }
 
-.contact-email {
+#contact p,
+#contact a {
     font-size: large;
     text-decoration: none;
     color: #f07510;
+    transition: .5s;
+}
+
+#contact a:hover {
+    color: #04ff00;
     transition: .5s;
 }
 
@@ -268,6 +274,13 @@
     background-image: url(./images/IMG_20210411_151027\ -\ Raaed\ Shajihan\ me20b141.jpg);
 }
 
+/* .core .person:nth-of-type(5) {
+    background-image: url(./images);
+} */
+.core .person:nth-of-type(6) {
+    background-image: url(./images/Kartik\ -\ Ruikar\ Kartik\ Deepak\ na20b053.jfif);
+}
+
 .mech .person:nth-of-type(1) {
     background-image: url(./images/IMG_20220807_175843\ -\ Ananth\ Kulkarni\ me21b020.jpg);
 }
@@ -300,11 +313,7 @@
     background-image: url(./images/mee\ -\ Akash\ Thakur\ ae21b102.jpg);
 }
 
-.mech .person:nth-of-type(9) {
-    background-image: url(./images/Kartik\ -\ Ruikar\ Kartik\ Deepak\ na20b053.jfif);
-}
-
-/* .mech .person:nth-of-type(10) {
+/* .mech .person:nth-of-type(9) {
     background-image: url(./images/);
 } */
 .elec .person:nth-of-type(1) {
@@ -361,6 +370,14 @@
 .about,
 .vision>p {
     font-size: larger;
+}
+
+.about .highlight {
+    color: #f07510;
+}
+
+.vision>p {
+    color: #E0FC00;
 }
 
 #about,
@@ -420,8 +437,9 @@
         font-size: 1rem;
     }
 
-    .contact-email {
-        padding: 1em;
+    #contact p,
+    #contact a {
+        font-size: small;
     }
 
     .person {
@@ -485,5 +503,10 @@
         font-weight: bolder;
         font-size: 10px;
         padding: .1rem .2rem;
+    }
+
+    .carousel-control-prev span,
+    .carousel-control-next span {
+        display: none;
     }
 }

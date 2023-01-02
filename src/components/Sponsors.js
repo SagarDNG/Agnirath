@@ -15,7 +15,7 @@ function Sponsors() {
             <div>
                 <img data-aos="fade-right" src={Logo} alt="" className='sponsorsLogo' />
             </div>
-            <div className='d-flex justify-content-center' data-aos="fade-up-left">
+            <div data-aos="fade-up-left">
                 <div className='sponsors d-flex justify-content-center align-items-center'>
                     <a href="https://www.ril.com/OurBusinesses/New-Energy.aspx" className='text-center'>Reliance New Solar Energy limited</a>
                 </div>

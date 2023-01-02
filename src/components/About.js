@@ -15,9 +15,9 @@ function About() {
                 <img src={Logo} alt="" className='aboutLogo' />
             </div>
             <div data-aos="fade-up" className="col-9 about text-center">
-                We are Team Agnirath, a team of young brains, with a vision to contribute to
+                We are <b className='highlight'>Team Agnirath</b>, a team of young brains, with a vision to contribute to
                 the sustainable future and the will to push the engineering limits, attempting to make solar EV hybrids a reality. We are one
-                of the first Indian teams participating in the prestigious World Solar Challenge, competing with teams from top universities
+                of the <span className='highlight'>first Indian teams</span> participating in the prestigious World Solar Challenge, competing with teams from top universities
                 across the globe!
             </div>
         </div>

@@ -9,7 +9,7 @@ function Competitions() {
         Aos.init({ duration: 3000 });
     }, []);
     return (
-        <div id='competitions' className='d-flex align-items-center justify-content-center mb-5'>
+        <div id='competitions' className='d-flex align-items-center justify-content-around mb-5'>
             <div>
                 <img data-aos="fade-right" src={Logo} alt="" className='competitionsLogo' />
             </div>

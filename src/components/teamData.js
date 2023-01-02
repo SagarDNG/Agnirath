@@ -38,6 +38,14 @@ export const Core = [
         'subModule': 'Low voltage',
         'linkedIn': 'https://www.linkedin.com/in/anirudh-varna-b5b0451b9',
         'email': 'anirudhrubix@gmail.com',
+    },    
+    {
+        'fullName': 'Kartik Ruikar',
+        'username': 'Kartik',
+        'rollNumber': 'NA20B053',
+        'subModule': 'Aerodynamics',
+        'linkedIn': 'https://www.linkedin.com/in/kartik-ruikar-2605',
+        'email': 'na20b053@smail.iitm.ac.in ',
     },
 ]
 
@@ -105,14 +113,6 @@ export const Mech = [
         'subModule': 'Aerodynamics',
         'linkedIn': 'https://www.linkedin.com/in/akash-thakur-6696a6239',
         'email': 'ae21b102@smail.iitm.ac.in',
-    },
-    {
-        'fullName': 'Kartik Ruikar',
-        'username': 'Kartik',
-        'rollNumber': 'NA20B053',
-        'subModule': 'Aerodynamics',
-        'linkedIn': 'https://www.linkedin.com/in/kartik-ruikar-2605',
-        'email': 'na20b053@smail.iitm.ac.in ',
     },
 ]
 
