@@ -14,11 +14,11 @@ function Contact() {
     }, []);
     return (
         <>
-            <div id='contact' className='d-flex justify-content-around align-items-center mb-4'>
-                <div>
+            <div id='contact' className='d-flex justify-content-between align-items-center mb-4'>
+                <div className='col-3'>
                     <img data-aos="fade-right" src={Logo} alt="" className='contactLogo mb-3' />
                 </div>
-                <div data-aos="fade-left" className='text-center'>
+                <div data-aos="fade-left" className='text-center col-9'>
                     <p>
                         Email: <a className='contact-email' href="mailto:agnirath@smail.iitm.ac.in">agnirath@smail.iitm.ac.in</a>
                     </p>
