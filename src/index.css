@@ -421,17 +421,12 @@
     }
 
     .teamLogo,
+    .competitionsLogo,
+    .sponsorsLogo,
     .contactLogo {
-        margin-left: -3rem;
+        margin-left: -3.5rem;
     }
 
-    .competitionsLogo {
-        margin-left: -2rem;
-    }
-
-    .sponsorsLogo {
-        margin-left: -2.5rem;
-    }
 
     .aboutLogo,
     .visionLogo,
